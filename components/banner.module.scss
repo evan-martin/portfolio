@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    height: 30rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../public/images/banner.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    .title {
+        color: white;
+        font-size: 4rem;
+        margin-bottom: 0em;
+    }
+
+    .subtitle {
+        color: white;
+        font-size: 2rem;
+        margin-top: 0em;
+    }
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .profile {
+        background: url("../public/images/profile.jpg");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        margin-top: -7rem;
+        border-radius: 50%;
+        border: 0.5rem solid white;
+    }
+}
