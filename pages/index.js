@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Banner from '../components/banner'
 import About from '../components/about'
+import Portfolio from '../components/portfolio'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         <Header />
         <Banner />
         <About />
-
+        <Portfolio />
 
 
 

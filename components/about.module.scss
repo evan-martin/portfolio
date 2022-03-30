@@ -1,7 +1,11 @@
-.container{
+.container {
     width: 100vw;
-    min-height: 50rem;
     display: flex;
-    justify-content: center;
-    
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    .content li {
+        padding: 0.25rem 0 0.25rem 0;
+    }
 }
