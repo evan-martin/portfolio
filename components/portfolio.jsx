@@ -1,28 +1,7 @@
 import styles from './portfolio.module.scss'
-import Image from 'next/image';
-import ImageGallery from 'react-image-gallery';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import ImgGallery from './gallery';
 
 export default function Portfolio() {
-
-    const storefrontImages = [
-        {
-            original: '/images/storefront/storefront1.png',
-        },
-        {
-            original: '/images/storefront/storefront2.png',
-        },
-    ];
-
-    const recipeboxImages = [
-        {
-            original: '/images/recipebox/recipebox1.png',
-        },
-        {
-            original: '/images/recipebox/recipebox2.png',
-        },
-    ];
 
     return (
 
@@ -40,7 +19,7 @@ export default function Portfolio() {
                 </div>
                 <div className={styles.galleryContainer}>
                     <h3>Storefront Gallery</h3>
-                    <ImageGallery items={storefrontImages} showPlayButton={false} showBullets={true} showThumbnails={false} showFullscreenButton={false} />
+                    <ImgGallery itemData={storefrontImages} />
                 </div>
             </div>
             <div className={styles.projectContainerReverse}>
@@ -53,11 +32,69 @@ export default function Portfolio() {
                 </div>
                 <div className={styles.galleryContainer}>
                     <h3>RecipeBox Gallery</h3>
-                    <ImageGallery items={recipeboxImages} showPlayButton={false} showBullets={true} showThumbnails={false} showFullscreenButton={false} />
+                    <ImgGallery itemData={recipeboxImages} />
                 </div>
             </div>
+
+
 
 
         </div>
     )
 }
+
+const recipeboxImages = [
+    {
+            img: '/images/recipebox/recipebox1.png',
+    },
+    {
+            img: '/images/recipebox/recipebox2.png',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
+    }
+];
+
+const storefrontImages = [
+    {
+            img: '/images/storefront/storefront1.png',
+    },
+    {
+            img: '/images/storefront/storefront2.png',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
+    },
+    {
+            img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
+    }
+];
+
+
