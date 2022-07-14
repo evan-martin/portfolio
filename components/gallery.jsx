@@ -48,12 +48,14 @@ export default function ImgGallery({ itemData }) {
                                         ))}
                                 </ImageList>
                         </Box>
-                        <Lightbox 
+
+                        <Lightbox
                                 toggler={lightboxController.toggler}
                                 sources={sourceArr}
                                 slide={lightboxController.slide}
                                 exitFullscreenOnClose={true}
                         />
+
                 </>
 
 
