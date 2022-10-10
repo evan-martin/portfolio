@@ -22,7 +22,9 @@ export default function About() {
                     <li>Experienced with Git, Python, XML, C#, Linux, Bash, CSS, HTML </li>
                     <li>BS in Computer Science from University of Maryland December 2021 </li>
                 </ul>
+                <button className={styles.button}>Download Resume</button>
             </div>
+            
         </div>
     )
 }
