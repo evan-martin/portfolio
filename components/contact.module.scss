@@ -1,0 +1,12 @@
+.container {
+    width: 100vw;
+    display: flex;
+    color: #FFF;
+    flex-direction: column;
+    align-items: center;
+
+    .content {
+        // border-top: 1px solid #eaeaea;
+        max-width: 60em;
+    }
+}
