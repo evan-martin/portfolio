@@ -6,7 +6,12 @@
     align-items: center;
 
     .content {
-        // border-top: 1px solid #eaeaea;
+        display: flex;
+        flex-direction: row;
         max-width: 60em;
+
+        a{
+            padding: 1rem;
+        }
     }
 }

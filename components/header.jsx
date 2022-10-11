@@ -8,7 +8,7 @@ export default function Header() {
                 <a href='#about'>About Me</a>
                 <a href='#portfolio'>Portfolio</a>
                 <a href='#contact'>Contact</a>
-                <a>Download Resume</a>
+                <a href='/resume.txt' target="_blank" rel="noopener noreferrer">Download Resume</a>
             </div>
 
 
