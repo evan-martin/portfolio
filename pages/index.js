@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Header from '../components/header'
@@ -20,14 +19,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <a id='home'/>
         <Header />
         <Banner />
+        <a id='about'/>
         <About />
+        <a id='portfolio'/>
         <Portfolio />
 
       </main>
 
       <footer className={styles.footer}>
+      <a id='contact'/>
         <Contact />
       </footer>
     </div>

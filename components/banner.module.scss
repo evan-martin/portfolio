@@ -1,6 +1,6 @@
 .container {
     width: 100vw;
-    height: 35rem;
+    height: 30rem;
     background: linear-gradient(rgba(45, 49, 66, 0.6), rgba(45, 49, 66, 0.6)), url("../public/images/banner2.jpg");
     display: flex;
     flex-direction: column;
@@ -45,3 +45,9 @@
         border: 0.5rem solid #463950;
     }
 }
+
+@media (max-width: 600px) {
+    .container .title{
+        font-size: 4rem;
+    }
+  }
