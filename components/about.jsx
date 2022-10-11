@@ -13,7 +13,7 @@ export default function About() {
                 <h2>Skills</h2>
                 <ul>
                     <li>Proficient in Javascript and associated technologies such as React, Next, Angular, Redux, Node, Express </li>
-                    <li>Proficient in SQl and NOSQL database technologies and consuming REST and SOAP API's </li>
+                    <li>Proficient in SQl and NOSQL database technologies and consuming REST and SOAP API&apos;s </li>
                     <li>Proficient in OOP principals and Java </li>
                     <li>Experienced with Git, Python, XML, C#, Linux, Bash, CSS, HTML </li>
                     <li>BS in Computer Science from University of Maryland December 2021 </li>

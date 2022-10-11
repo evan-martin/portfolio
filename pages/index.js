@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
 import Header from '../components/header'
 import Banner from '../components/banner'
 import About from '../components/about'
@@ -14,7 +13,7 @@ export default function Home() {
         <title>Evan Martin</title>
         <link rel="icon" href="/gsd.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet" />
       </Head>
 
