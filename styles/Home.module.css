@@ -25,18 +25,17 @@
 }
 
 .footer h1{
-  border-bottom: 1px solid #eaeaea;
+  /* border-bottom: 1px solid #eaeaea; */
   width: 15rem;
 }
 
 .footer a {
+  border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
   color: #eaeaea;
-  padding-top: .5rem;
-  
 }
 
 @media (max-width: 600px) {

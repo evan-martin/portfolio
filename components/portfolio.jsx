@@ -72,40 +72,40 @@ const recipeboxImages = [
 
 const storefrontImages = [
         {
-                img: '/images/storefront/storefront-home.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656854/storefront/storefront-home_ehzvr3.png',
         },
         {
-                img: '/images/storefront/storefront-collection.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656849/storefront/storefront-collection_ktqkfa.png',
         },
         {
-                img: '/images/storefront/storefront-modal.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656852/storefront/storefront-modal_zujfqb.png',
         },
         {
-                img: '/images/storefront/storefront-cart.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656836/storefront/storefront-cart_jnf6qo.png',
         },
         {
-                img: '/images/storefront/storefront-checkout.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656836/storefront/storefront-checkout_agjrvv.png',
         },
         {
-                img: '/images/storefront/storefront-home1-mobile.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656850/storefront/storefront-home1-mobile_bgsegh.png',
         },
         {
-                img: '/images/storefront/storefront-home2-mobile.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656852/storefront/storefront-home2-mobile_fwq6tw.png',
         },
         {
-                img: '/images/storefront/storefront-collection1-mobile.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656850/storefront/storefront-collection1-mobile_lhq1rp.png',
         },
         {
-                img: '/images/storefront/storefront-collection2-mobile.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656849/storefront/storefront-collection2-mobile_j7jofp.png',
         },
         {
-                img: '/images/storefront/storefront-modal-mobile.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656853/storefront/storefront-modal-mobile_ue6hmj.png',
         },
         {
-                img: '/images/storefront/storefront-cart-mobile.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656838/storefront/storefront-cart-mobile_nmbjls.png',
         },
         {
-                img: '/images/storefront/storefront-checkout-mobile.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656836/storefront/storefront-checkout-mobile_spckgb.png',
         },
 ];
 
