@@ -20,7 +20,7 @@ export default function Portfolio() {
                                                 Created two backends: API using Express and Mongoose with MongoDB and a serverless
                                                 implementation using AWS API Gateway, Lambda, and DynamoDB.
 
-                                                For demonstration purposes this deployment's authentication server is on development mode so you can sign up with any valid email format (example@mail.com) and valid password. Some recipes are also provided as to showcase the app. Feel free to create, edit, and delete as much as you'd like.</p>
+                                                For demonstration purposes this deployment&#39;s authentication server is on development mode so you can sign up with any valid email format (example@mail.com) and valid password. Some recipes are also provided as to showcase the app. Feel free to create, edit, and delete as much as you&#39;d like.</p>
                                         <a href='https://serverless.d3370lenxs79be.amplifyapp.com/' target="_blank" rel="noopener noreferrer">
                                                 <button className={styles.button}>
                                                         View Live Project
