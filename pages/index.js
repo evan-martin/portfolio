@@ -4,7 +4,6 @@ import Header from '../components/header'
 import Banner from '../components/banner'
 import About from '../components/about'
 import Portfolio from '../components/portfolio'
-import Contact from '../components/contact'
 
 export default function Home() {
   return (
@@ -29,8 +28,6 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-      <a id='contact'/>
-        <Contact />
       </footer>
     </div>
   )

@@ -7,8 +7,7 @@ export default function Header() {
             <div className={styles.rightContent}>
                 <a href='#about'>About Me</a>
                 <a href='#portfolio'>Portfolio</a>
-                <a href='#contact'>Contact</a>
-                <a href='/resume.txt' target="_blank" rel="noopener noreferrer">Download Resume</a>
+                <a href='/evan-martin-resume.pdf' target="_blank" rel="noopener noreferrer">Download Resume</a>
             </div>
 
 

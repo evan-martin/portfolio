@@ -4,12 +4,13 @@
     background: linear-gradient(rgba(45, 49, 66, 0.6), rgba(45, 49, 66, 0.6)), url("../public/images/banner2.jpg");
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     z-index: 2;
     font-family: Jost, sans-serif;
     text-align: center;
     color: white;
+    padding-top: 2rem;
 
     .title {
         font-size: 5rem;
@@ -24,8 +25,15 @@
 
     .location{
         font-size: 1.25rem;
-        margin-top: 0em;
-        padding-bottom: 1.25rem;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact{
+        // border: 1px solid white;
+        width: 12rem;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -36,7 +44,7 @@
     align-items: center;
 
     .profile {
-        background: url("../public/images/profile.jpg");
+        background: url("../public/images/evan2.jpg");
         width: 220px;
         height: 220px;
         background-size: cover;

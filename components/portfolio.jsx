@@ -8,31 +8,50 @@ export default function Portfolio() {
                 <div className={styles.container}>
 
                         <h1>Portfolio</h1>
+                        <div className={styles.projectContainerReverse}>
+                                <div className={styles.textContainer}>
+                                        <h2>RecipeBox</h2>
+                                        <p> A personal recipe organizer for the home cook.
+                                                Users are able to create, read, update, delete, and list their recipes.
+                                                Implemented user interface using React with MaterialUI and Sass for styling.
+                                                Import functionality implemented by scraping JSON-LD.
+                                                Image upload and hosting implemented with Cloudinary.
+                                                Authentication implemented using Auth0.
+                                                Created two backends: API using Express and Mongoose with MongoDB and a serverless
+                                                implementation using AWS API Gateway, Lambda, and DynamoDB.
+
+                                                For demonstration purposes this deployment's authentication server is on development mode so you can sign up with any valid email format (example@mail.com) and valid password. Some recipes are also provided as to showcase the app. Feel free to create, edit, and delete as much as you'd like.</p>
+                                        <a href='https://serverless.d3370lenxs79be.amplifyapp.com/' target="_blank" rel="noopener noreferrer">
+                                                <button className={styles.button}>
+                                                        View Live Project
+                                                </button>
+                                        </a>
+                                </div>
+                                <div className={styles.galleryContainer}>
+                                        <ImgGallery itemData={recipeboxImages} />
+                                </div>
+                        </div>
                         <div className={styles.projectContainer}>
                                 <div className={styles.textContainer}>
-                                        <h3>Storefront</h3>
-                                        <p>A personal recipe organizer for the home cook. Designed to be navigable and readable on all screen sizes.
-                                                Implemented user interface using React with MaterialUI and custom CSS for styling.Focus on implementing intuitive interface.
-                                                Created API using Express and Mongoose with MongoDB for storage.Supports all CRUD operations.</p>
-                                        <button className={styles.button}>Check It Out Live </button>
+                                        <h2>Storefront</h2>
+                                        <p>An e-commerce fashion application.
+                                                Implemented user interface using React with MaterialUI and Sass for styling.
+                                                Used Redux for state management.
+                                                Used Stripe API for secure payment.
+                                                Created two backends: Express API and serverless lambda function to securely interact with the Stripe
+                                                API.
+
+                                                To simulate a successful transaction, use card number 4242 4242 4242 4242, a valid future date, any three digit CVC, any valid email format (example@mail.com), any five digits for zip code, and any name.
+                                                Visit https://stripe.com/docs/testing to simulate other scenarios.</p>
+                                        <a href='https://dev.d2kke5povhmi6.amplifyapp.com/' target="_blank" rel="noopener noreferrer">
+                                                <button className={styles.button}>
+                                                        View Live Project
+                                                </button>
+                                        </a>
 
                                 </div>
                                 <div className={styles.galleryContainer}>
-                                        <h3>Project Gallery</h3>
                                         <ImgGallery itemData={storefrontImages} />
-                                </div>
-                        </div>
-                        <div className={styles.projectContainerReverse}>
-                                <div className={styles.textContainer}>
-                                        <h3>RecipeBox</h3>
-                                        <p>A personal recipe organizer for the home cook. Designed to be navigable and readable on all screen sizes.
-                                                Implemented user interface using React with MaterialUI and custom CSS for styling.Focus on implementing intuitive interface.
-                                                Created API using Express and Mongoose with MongoDB for storage.Supports all CRUD operations.</p>
-                                        <button className={styles.button}>Check It Out Live </button>
-                                </div>
-                                <div className={styles.galleryContainer}>
-                                        <h3>Project Gallery</h3>
-                                        <ImgGallery itemData={recipeboxImages} />
                                 </div>
                         </div>
 
@@ -45,28 +64,43 @@ export default function Portfolio() {
 
 const recipeboxImages = [
         {
-                img: '/images/recipebox/recipebox1.png',
+                img: "https://res.cloudinary.com/dyi8luau7/image/upload/v1666996595/recipe-box/recipe-box-login_fwinmj.png",
         },
         {
-                img: '/images/recipebox/recipebox2.png',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666986004/recipe-box/recipe-box-home_pw92is.jpg',
         },
         {
-                img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666987321/recipe-box/recipe-box-read_pksvoi.jpg',
         },
         {
-                img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666987418/recipe-box/recipe-box-edit_u6viqn.jpg',
         },
         {
-                img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666987470/recipe-box/recipe-box-create_bcp3dt.jpg',
         },
         {
-                img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988801/recipe-box/recipe-box-shopping-list_rgql3b.png',
         },
         {
-                img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-home-mobile_fy0lge.png',
         },
         {
-                img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-read-mobile_cczq0l.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-edit-mobile_pgci1b.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988805/recipe-box/recipe-box-create-mobile_kgfr7e.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988805/recipe-box/recipe-box-shopping-list-mobile_cadysq.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988802/recipe-box/recipe-box-menu1_cuptpi.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988801/recipe-box/recipe-box-menu2_wqrfvu.png',
         }
 ];
 
