@@ -9,7 +9,8 @@ export default function About() {
             </div>
             <div className={styles.content}>
                 <h2>About Me</h2>
-                <p>Experienced in JavaScript and associated frameworks such as React, Angular, Node, and Express. Personable and reliable professional with excellent communication skills. Ability to work well both collaboratively and independently. Pragmatic problem solver focused on writing clean, quality, reusable code.</p>
+                <p>Seeking software role where I am able to learn new concepts, technologies, and to continue to grow my skills. Experienced in JavaScript and associated frameworks such as React, Angular, and Node. Personable and reliable professional with excellent communication skills. Ability to work well both collaboratively and independently. Pragmatic problem solver focused on writing clean, quality, reusable code. Eligible for clearance.
+                </p>
                 <h2>Skills</h2>
                 <ul>
                     <li>Proficient in Javascript and associated technologies such as React, Next, Angular, Redux, Node, Express </li>
