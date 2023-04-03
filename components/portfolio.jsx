@@ -99,27 +99,27 @@ const recipeboxImages = [
         {
                 img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988801/recipe-box/recipe-box-shopping-list_rgql3b.png',
         },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-home-mobile_fy0lge.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-read-mobile_cczq0l.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-edit-mobile_pgci1b.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988805/recipe-box/recipe-box-create-mobile_kgfr7e.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988805/recipe-box/recipe-box-shopping-list-mobile_cadysq.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988802/recipe-box/recipe-box-menu1_cuptpi.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988801/recipe-box/recipe-box-menu2_wqrfvu.png',
-        }
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-home-mobile_fy0lge.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-read-mobile_cczq0l.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988806/recipe-box/recipe-box-edit-mobile_pgci1b.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988805/recipe-box/recipe-box-create-mobile_kgfr7e.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988805/recipe-box/recipe-box-shopping-list-mobile_cadysq.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988802/recipe-box/recipe-box-menu1_cuptpi.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666988801/recipe-box/recipe-box-menu2_wqrfvu.png',
+        // }
 ];
 
 const storefrontImages = [
@@ -138,27 +138,27 @@ const storefrontImages = [
         {
                 img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656836/storefront/storefront-checkout_agjrvv.png',
         },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656850/storefront/storefront-home1-mobile_bgsegh.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656852/storefront/storefront-home2-mobile_fwq6tw.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656850/storefront/storefront-collection1-mobile_lhq1rp.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656849/storefront/storefront-collection2-mobile_j7jofp.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656853/storefront/storefront-modal-mobile_ue6hmj.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656838/storefront/storefront-cart-mobile_nmbjls.png',
-        },
-        {
-                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656836/storefront/storefront-checkout-mobile_spckgb.png',
-        },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656850/storefront/storefront-home1-mobile_bgsegh.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656852/storefront/storefront-home2-mobile_fwq6tw.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656850/storefront/storefront-collection1-mobile_lhq1rp.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656849/storefront/storefront-collection2-mobile_j7jofp.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656853/storefront/storefront-modal-mobile_ue6hmj.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656838/storefront/storefront-cart-mobile_nmbjls.png',
+        // },
+        // {
+        //         img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656836/storefront/storefront-checkout-mobile_spckgb.png',
+        // },
 ];
 
 const senditImages = [
