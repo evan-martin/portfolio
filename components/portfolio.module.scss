@@ -55,10 +55,4 @@
             }
         }
     }
-
-    .projectContainerReverse{
-        @extend .projectContainer;
-        flex-direction: row-reverse;
-
-    }
 }

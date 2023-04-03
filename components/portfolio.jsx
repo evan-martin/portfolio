@@ -8,7 +8,8 @@ export default function Portfolio() {
                 <div className={styles.container}>
 
                         <h1>Portfolio</h1>
-                        <div className={styles.projectContainerReverse}>
+
+                        <div className={styles.projectContainer}>
                                 <div className={styles.textContainer}>
                                         <h2>RecipeBox</h2>
                                         <p> A personal recipe organizer for the home cook.
@@ -55,7 +56,24 @@ export default function Portfolio() {
                                 </div>
                         </div>
 
-
+                        <div className={styles.projectContainer}>
+                                <div className={styles.textContainer}>
+                                        <h2>WorkoutTracker</h2>
+                                        <p> A cycling workout tracker and data visualizer.
+                                                This project utilizes the Strava API and the Mapbox API. The Strava API provides a polyline of the route, this is decoded and manipulated into the lat long format the Mapbox API requires then this data is used
+                                                to generate a static image and an interactive map displaying the route. When an individual activity is selected user data streams are gathered from Strava, manipulated, and plotted against each other
+                                                to give meaninful insight into the data. Monthly and weekly statistics are parsed from the Stava API's metadata.
+                                             </p>
+                                        <a href='https://master.d15daumqox5yie.amplifyapp.com/' target="_blank" rel="noopener noreferrer">
+                                                <button className={styles.button}>
+                                                        View Live Project
+                                                </button>
+                                        </a>
+                                </div>
+                                <div className={styles.galleryContainer}>
+                                        <ImgGallery itemData={senditImages} />
+                                </div>
+                        </div>
 
 
                 </div>
@@ -140,6 +158,24 @@ const storefrontImages = [
         },
         {
                 img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1666656836/storefront/storefront-checkout-mobile_spckgb.png',
+        },
+];
+
+const senditImages = [
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1680546937/workout-tracker/sendit-splash_ohdiky.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1680546940/workout-tracker/sendit-activites1_votyle.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1680546936/workout-tracker/sendit-activites2_tupb9m.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1680546936/workout-tracker/sendit-activity-detail_sfn1zq.png',
+        },
+        {
+                img: 'https://res.cloudinary.com/dyi8luau7/image/upload/v1680546935/workout-tracker/sendit-overview_mi3oji.png',
         },
 ];
 

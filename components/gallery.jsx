@@ -34,7 +34,7 @@ export default function ImgGallery({ itemData }) {
         return (
                 <>
                         {loopThrough()}
-                        <Box sx={{ width: `inherit` }}>
+                        <Box sx={{ width: `inherit`, height:600, overflowY:'scroll' }}>
                                 <ImageList variant="masonry" cols={3} gap={8} >
                                         {itemData.map((item) => (
                                                 <ImageListItem sx={{ cursor: 'pointer' }} key={item.img}>
