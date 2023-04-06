@@ -62,7 +62,7 @@ export default function Portfolio() {
                                         <p> A cycling workout tracker and data visualizer.
                                                 This project utilizes the Strava API and the Mapbox API. The Strava API provides a polyline of the route, this is decoded and manipulated into the lat long format the Mapbox API requires then this data is used
                                                 to generate a static image and an interactive map displaying the route. When an individual activity is selected user data streams are gathered from Strava, manipulated, and plotted against each other
-                                                to give meaninful insight into the data. Monthly and weekly statistics are parsed from the Stava API's metadata.
+                                                to give meaninful insight into the data. Monthly and weekly statistics are parsed from the Stava API&#39;s metadata.
                                              </p>
                                         <a href='https://master.d15daumqox5yie.amplifyapp.com/' target="_blank" rel="noopener noreferrer">
                                                 <button className={styles.button}>
